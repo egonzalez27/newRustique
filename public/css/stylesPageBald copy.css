@@ -1,0 +1,150 @@
+
+
+.containerBanner {
+    width: 90%;
+    box-shadow: 1px 1px 10px #2c3e5090;
+    background-color: var(--color-black);
+    margin: 0 auto;
+}
+
+.carousel-control-prev, .carousel-control-prev-icon{
+    width: 80%;
+    height: 100%;
+    background-color: var(--color-orange);
+}
+.carousel-control-next, .carousel-control-next-icon{
+    width: 80%;
+    height: 100%;
+    background-color: var(--color-orange);
+}
+
+.carousel-inner {
+    width: 94%;
+    height: max-content;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background: var(--color-grey);
+}
+
+
+
+.carousel-item.active{
+    width: 95%;
+    display: flex;
+}
+
+.contInfoBaldosa {
+    width: 50%;
+    height: 100vh;
+    align-self: center;
+    z-index: 400;
+    background-color: var(--color-grey);
+}
+
+.infoBaldosa {
+    margin: 5% 20% 0 auto;
+    width: 65%;
+}
+
+.titleBaldosa {
+    margin-bottom: 15%;
+    text-align: center;
+    font-family: 'Romanica', Arial, Helvetica, sans-serif;
+    font-size: 5vw;
+    color: var(--color-white);
+    text-transform: uppercase;
+}
+
+
+
+.contInfoBaldosa p {
+    padding-left: 10%;
+    text-align: start;
+    font-family: 'Romanica', Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    color: var(--color-white);
+    margin: 0 auto;
+}
+
+
+.containerBtnBuy{
+    width: max-content;
+    margin: 10% auto 10% auto;
+}
+
+.btnBuy{
+    width: 200px;
+    height: 60px;
+    background-color: var(--color-orange);
+    color: var(--color-black);
+    font-size: 1.5vw;
+    font-family:  Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btnBuy:hover {
+    background-color: var(--color-black);
+    color: var(--color-orange);
+    cursor: pointer;
+}
+
+
+
+
+
+
+.contImageBanner {
+    width: 100%;
+}
+
+.rowBanner {
+    width: max-content;
+}
+
+.colItem a img{
+    width: 73%;
+	object-fit: fill;
+}
+
+
+
+.contButtons {
+    width: 55%;
+    margin-left: 50%;
+}
+
+.carousel-control-prev {
+    width: 7%;
+    margin-left: 50%;
+    z-index: 500;
+}
+
+.carousel-control-next {
+    width: 7%;
+    margin-right: 0;
+    z-index: 500;
+}
+
+
+.carousel-control-next:hover, 
+.carousel-control-prev:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+    
+    
+
+
+/***************************************************************************************************
+    FIN FOOTER
+****************************************************************************************************/
+
+
+

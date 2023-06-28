@@ -1,0 +1,53 @@
+
+    
+<div class="containerBanner">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+            <div class="contInfoBaldosa">
+                <div class="infoBaldosa">
+                    <h3 class="titleBaldosa">{{itemContent}}</h3>
+                    <p class="itemInfo">Medidas: 40 x 40 cm</p>
+                    <p class="itemInfo">Espesor: 35 mm</p>
+                    <p class="itemInfo">Colores:</p>
+                    <p class="itemInfo">Rojo - Negro - Cemento</p>
+                    <p class="itemInfo">Cantidad x m2: 6,25</p>
+                    <p class="itemInfo">Peso por m2: 82 kg</p>
+                </div>
+                <div class="containerBtnBuy">
+                    <a href="https://wa.me/2494315729" class="btnBuy" target="_blank"><input type="submit" class="btnBuy" value="Reservar"></a>
+                </div>
+            </div>
+            
+            {{#each item.images}}
+            <div class="carousel-item{{#if @index}} active{{/if}}" data-bs-interval="5500">
+                <div class="contImageBanner">
+                    <div class="rowBanner">
+                        <div class="colItem">
+                            <a href="/pages/pageNews.html" class="imageLink" id="log">
+                                <img src="/images/assets/{{this}}" alt="banner">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{/each}}
+
+            <div class="contButtons">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            
+        </div>
+
+
+    </div>
+</div>
